@@ -15,7 +15,9 @@ function App() {
   }
 
 
+
   const [API, setAPI] = useState([]);
+
   useEffect(() => {
     fetch('/public/Scorer-King-Vector.json')
       .then(Responce => Responce.json())
