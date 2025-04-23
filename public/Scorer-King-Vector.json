@@ -5,10 +5,10 @@
         "player_name": "Hamza Choudhury",
         "player_information": "Hamza Choudhury, a dynamic midfielder, plays for Leicester City in the Premier League. Known for his tenacity and work rate, he debuted for Bangladesh internationally in 2025, inspiring many. His versatility and defensive skills make him a key asset.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 60%",
-            "Passing accuracy: 78%",
-            "Player position: Midfielder"
+            "Preferred foot : Right",
+            "Shooting accuracy : 60%",
+            "Passing accuracy : 78%",
+            "Player position : Midfielder"
         ],
         "player_nationality": "Bangladeshi-English",
         "player_weight": "74 kg",
@@ -20,10 +20,10 @@
         "player_name": "Jamal Bhuyan",
         "player_information": "Jamal Bhuyan, captain of Bangladesh, is a midfielder known for leadership and vision. Playing for clubs like Saif SC, he’s a role model in South Asian football, emphasizing teamwork and resilience in matches.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 55%",
-            "Passing accuracy: 75%",
-            "Player position: Midfielder"
+            "Preferred foot : Right",
+            "Shooting accuracy : 55%",
+            "Passing accuracy : 75%",
+            "Player position : Midfielder"
         ],
         "player_nationality": "Bangladeshi",
         "player_weight": "70 kg",
@@ -35,10 +35,10 @@
         "player_name": "Neymar JR",
         "player_information": "Neymar, a global superstar at Al Hilal, is renowned for dazzling dribbles and flair. With a record-breaking PSG transfer, he’s won multiple titles, though injuries have impacted recent years. His creativity remains unmatched.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 82%",
-            "Passing accuracy: 85%",
-            "Player position: Forward/Winger"
+            "Preferred foot : Right",
+            "Shooting accuracy : 82%",
+            "Passing accuracy : 85%",
+            "Player position : Forward/Winger"
         ],
         "player_nationality": "Brazilian",
         "player_weight": "68 kg",
@@ -50,10 +50,10 @@
         "player_name": "Cristiano Ronaldo",
         "player_information": "Cristiano Ronaldo, one of football’s greatest, plays for Al Nassr. With over 900 career goals, he’s a five-time Ballon d’Or winner. His athleticism and goal-scoring prowess continue to define his legendary career.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 88%",
-            "Passing accuracy: 80%",
-            "Player position: Forward"
+            "Preferred foot : Right",
+            "Shooting accuracy : 88%",
+            "Passing accuracy : 80%",
+            "Player position : Forward"
         ],
         "player_nationality": "Portuguese",
         "player_weight": "83 kg",
@@ -65,10 +65,10 @@
         "player_name": "Missi",
         "player_information": "Missi is an ambiguous or fictional player with no clear professional record. Assumed to be a young talent, potentially a Forward/Winger, but lacks verifiable data. Further details are needed to confirm identity.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 85%",
-            "Passing accuracy: 87%",
-            "Player position: Forward/Winger"
+            "Preferred foot : Right",
+            "Shooting accuracy : 85%",
+            "Passing accuracy : 87%",
+            "Player position : Forward/Winger"
         ],
         "player_nationality": "Argentinian",
         "player_weight": "85 kg",
@@ -80,10 +80,10 @@
         "player_name": "Kylian Mbappé",
         "player_information": "Kylian Mbappé, Real Madrid’s star forward, is a World Cup winner and prolific scorer. At 26, he’s among the world’s best, known for blistering pace and clinical finishing, leading France’s attack.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 87%",
-            "Passing accuracy: 82%",
-            "Player position: Forward"
+            "Preferred foot : Right",
+            "Shooting accuracy : 87%",
+            "Passing accuracy : 82%",
+            "Player position : Forward"
         ],
         "player_nationality": "French",
         "player_weight": "73 kg",
@@ -95,44 +95,44 @@
         "player_name": "Luis Suárez",
         "player_information": "Luis Suárez, now at Inter Miami, is a lethal striker with over 500 career goals. Known for his tenacity and finishing, he’s won titles with Barcelona and Atlético Madrid, remaining impactful at 38.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 85%",
-            "Passing accuracy: 78%",
-            "Player position: Forward"
+            "Preferred foot : Right",
+            "Shooting accuracy : 85%",
+            "Passing accuracy : 78%",
+            "Player position : Forward"
         ],
         "player_nationality": "Uruguayan",
         "player_weight": "83 kg",
         "player_age": 38
     },
     {
-        "player_image": "/public/Player-Image/James-Rodriguez.jpg",
-        "player_id": "JR008",
-        "player_name": "James Rodríguez",
-        "player_information": "James Rodríguez, playing for São Paulo, is a creative midfielder famed for his 2014 World Cup brilliance. His vision and technique shine, though consistency has varied across European clubs.",
-        "player_behavior": [
-            "Preferred foot: Left",
-            "Shooting accuracy: 78%",
-            "Passing accuracy: 88%",
-            "Player position: Midfielder"
-        ],
-        "player_nationality": "Colombian",
-        "player_weight": "75 kg",
-        "player_age": 33
-    },
-    {
         "player_image": "/public/Player-Image/Mohamed-Salah.jpg",
-        "player_id": "MS009",
+        "player_id": "MS008",
         "player_name": "Mohamed Salah",
         "player_information": "Mohamed Salah, Liverpool’s talisman, is a prolific winger with over 200 Premier League goals. Known for speed and precision, he’s Africa’s top footballer, leading Liverpool to major titles.",
         "player_behavior": [
-            "Preferred foot: Left",
-            "Shooting accuracy: 86%",
-            "Passing accuracy: 80%",
-            "Player position: Winger"
+            "Preferred foot : Left",
+            "Shooting accuracy : 86%",
+            "Passing accuracy : 80%",
+            "Player position : Winger"
         ],
         "player_nationality": "Egyptian",
         "player_weight": "71 kg",
         "player_age": 32
+    },
+    {
+        "player_image": "/public/Player-Image/James-Rodriguez.jpg",
+        "player_id": "JR009",
+        "player_name": "James Rodríguez",
+        "player_information": "James Rodríguez, playing for São Paulo, is a creative midfielder famed for his 2014 World Cup brilliance. His vision and technique shine, though consistency has varied across European clubs.",
+        "player_behavior": [
+            "Preferred foot : Left",
+            "Shooting accuracy : 78%",
+            "Passing accuracy : 88%",
+            "Player position : Midfielder"
+        ],
+        "player_nationality": "Colombian",
+        "player_weight": "75 kg",
+        "player_age": 33
     },
     {
         "player_image": "/public/Player-Image/Moist-Ozul.jpg",
@@ -140,10 +140,10 @@
         "player_name": "Moist Ozul",
         "player_information": "Moist Ozul appears to be a fictional or unknown player with no professional record. Potentially a creative midfielder, but no data exists to confirm details or career achievements.",
         "player_behavior": [
-            "Preferred foot: Right",
-            "Shooting accuracy: 75%",
-            "Passing accuracy: 80%",
-            "Player position: Midfielder"
+            "Preferred foot : Right",
+            "Shooting accuracy : 75%",
+            "Passing accuracy : 80%",
+            "Player position : Midfielder"
         ],
         "player_nationality": "Turkish",
         "player_weight": "75 kg",
