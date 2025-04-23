@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Selected_Player_Card = () => {
+const Selected_Players_Card = () => {
     return (
         <>
 
@@ -9,8 +9,8 @@ const Selected_Player_Card = () => {
     );
 };
 
-Selected_Player_Card.propTypes = {
+Selected_Players_Card.propTypes = {
 
 };
 
-export default Selected_Player_Card;
+export default Selected_Players_Card;

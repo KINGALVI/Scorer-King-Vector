@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-const Single_Player_Card = ({ Player }) => {
+const All_Players_Card = ({ Player }) => {
     const { player_image, player_name, player_information, player_behavior, player_nationality, player_weight, player_age } = Player
 
     return (
@@ -51,8 +51,8 @@ const Single_Player_Card = ({ Player }) => {
 
 };
 
-Single_Player_Card.propTypes = {
+All_Players_Card.propTypes = {
 
 };
 
-export default Single_Player_Card;
+export default All_Players_Card;

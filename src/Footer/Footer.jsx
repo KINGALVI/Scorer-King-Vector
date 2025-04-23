@@ -39,7 +39,7 @@ const Footer = () => {
         <Row className="mt-4 text-center">
           <Col>
             <img src={BottomLogo} alt="Football Logo" width="100" />
-            <p className="mt-2">@2024 Your Company All Rights Reserved.</p>
+            <p className="mt-2">@2025 Your Company All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>
