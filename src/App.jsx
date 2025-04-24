@@ -3,7 +3,7 @@ import "react-toastify/dist/ReactToastify.css"; import 'bootstrap/dist/css/boots
 import './App.CSS'
 import Header from './Header/Header';
 import Carousel from './Carousel/Carousel';
-import Players_Container from './Player-Section/Players_Container';
+import All_Players_Container from './Player-Section/All-Players-Section/All_Players_Container';
 import Footer from './Footer/Footer';
 import { useEffect, useState } from 'react';
 
@@ -77,7 +77,7 @@ function App() {
       />
       <Header Coin={Coin}></Header>
       <Carousel handelSetcoin={handelSetcoin}></Carousel>
-      <Players_Container API={API} handelRemovecoin={handelRemovecoin}></Players_Container>
+      <All_Players_Container API={API} handelRemovecoin={handelRemovecoin}></All_Players_Container>
       <Footer></Footer>
     </>
   )

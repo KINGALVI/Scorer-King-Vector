@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const Selected_Players_Card = () => {
     return (
-        <>
-
-        </>
+        <div>
+            <h1>KING ALVI</h1>
+        </div>
     );
 };
 
