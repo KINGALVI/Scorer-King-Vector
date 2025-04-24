@@ -11,6 +11,7 @@ const Players_Container = ({ API, handelRemovecoin }) => {
 
     return (
         <>
+
             <section className="d-flex justify-content-end mb-3">
                 <Button
                     variant={activeSection === "available" ? "primary" : "outline-primary"}
@@ -39,6 +40,7 @@ const Players_Container = ({ API, handelRemovecoin }) => {
             ) : (
                 <Selected_Players_Card></Selected_Players_Card>
             )}
+
         </>
     );
 };
