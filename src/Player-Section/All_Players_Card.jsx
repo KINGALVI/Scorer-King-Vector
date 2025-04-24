@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-const All_Players_Card = ({ Player }) => {
+const All_Players_Card = ({ Player, handelRemovecoin }) => {
     const { player_image, player_name, player_information, player_behavior, player_nationality, player_weight, player_age } = Player
 
     return (
@@ -40,7 +40,7 @@ const All_Players_Card = ({ Player }) => {
 
                         </div>
 
-                        <Button variant="success"><b>Choose Player</b></Button>
+                        <Button variant="success" onClick={handelRemovecoin}><b>Choose Player</b></Button>
 
                     </Card.Body>
 

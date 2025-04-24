@@ -38,7 +38,7 @@ const Carousel = ({ handelSetcoin }) => {
                         <br />
 
                         <div className='d-flex justify-content-center'>
-                            <Button onClick={handelSetcoin} variant="outline-light m-1"><b>Claim Free Credit</b></Button>
+                            <Button variant="outline-light m-1" onClick={handelSetcoin}><b>Claim Free Credit</b></Button>
                         </div>
 
                     </div>

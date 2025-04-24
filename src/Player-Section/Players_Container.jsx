@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import All_Player_Card from './All_Players_Card';
 
-const Players_Container = ({ API }) => {
+const Players_Container = ({ API, handelRemovecoin }) => {
 
     return (
         <>
@@ -13,7 +13,7 @@ const Players_Container = ({ API }) => {
                 {
                     API.map((Player, idx) => (
                         <Col key={idx}>
-                            <All_Player_Card key={idx} Player={Player}></All_Player_Card>
+                            <All_Player_Card key={idx} Player={Player} handelRemovecoin={handelRemovecoin}></All_Player_Card>
                         </Col>
                     ))
                 }
