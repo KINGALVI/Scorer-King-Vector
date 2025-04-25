@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Selected_Players_Card from './Selected_Players_Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import PropTypes from 'prop-types';
 
 const Selected_Players_Container = ({ AllSelectedPlayer }) => {
     return (

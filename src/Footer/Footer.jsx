@@ -1,5 +1,9 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import Container from "react-bootstrap/Container";
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Form from "react-bootstrap/Form";
+import Button from 'react-bootstrap/Button';
 import BottomLogo from '../../public/Logo-&-OtherPicture/Bottom-King-Vector.png'
 
 const Footer = () => {
@@ -7,13 +11,12 @@ const Footer = () => {
     <footer className="bg-dark text-light py-5">
       <Container>
         <Row>
-          {/* About Us Section */}
+
           <Col md={4}>
             <h4>About Us</h4>
             <p>We are a passionate team dedicated to providing the best services to our customers.</p>
           </Col>
 
-          {/* Quick Links Section */}
           <Col md={4}>
             <h4>Quick Links</h4>
             <ul className="list-unstyled">
@@ -24,7 +27,6 @@ const Footer = () => {
             </ul>
           </Col>
 
-          {/* Subscribe Section */}
           <Col md={4}>
             <h4>Subscribe</h4>
             <p>Subscribe to our newsletter for the latest updates.</p>
@@ -35,7 +37,6 @@ const Footer = () => {
           </Col>
         </Row>
 
-        {/* Football Logo & Copyright */}
         <Row className="mt-4 text-center">
           <Col>
             <img src={BottomLogo} alt="Football Logo" width="100" />

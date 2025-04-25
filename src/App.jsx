@@ -1,6 +1,6 @@
+import './App.CSS'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.CSS'
 import Header from './Header/Header';
 import Carousel from './Carousel/Carousel';
 import All_Players_Container from './Player-Section/All-Players-Section/All_Players_Container';
@@ -16,7 +16,7 @@ function App() {
   }
 
   const displayErrorMsg = () => {
-    toast.error('your Coin is now empty. Please add some coin to purchase more player.', {
+    toast.error('You have no Coins. Please add some Credit to purchase more player.', {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: false,

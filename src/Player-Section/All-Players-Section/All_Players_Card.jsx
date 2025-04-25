@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types';
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import PropTypes from 'prop-types';
 
 const All_Players_Card = ({ AllPlayer, handelRemovecoin, handelSelectedPlayer }) => {
     const { player_image, player_name, player_information, player_behavior, player_nationality, player_weight, player_age } = AllPlayer
@@ -20,7 +21,7 @@ const All_Players_Card = ({ AllPlayer, handelRemovecoin, handelSelectedPlayer })
 
                         <hr />
 
-                        <h5><b>Playing Style</b></h5>
+                        <h4><b>Playing Style</b></h4>
                         {player_behavior.map((player_behavior, idx) => <li key={idx}>{player_behavior}</li>)}
 
                         <hr />
@@ -42,7 +43,7 @@ const All_Players_Card = ({ AllPlayer, handelRemovecoin, handelSelectedPlayer })
                         </div>
 
                         <Button variant="success" onClick={() => {
-                            handelRemovecoin
+                            handelRemovecoin()
                             handelSelectedPlayer(AllPlayer)
                         }}><b>Choose Player</b></Button>
 

@@ -1,6 +1,6 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 import PropTypes from 'prop-types';
-import { Card } from 'react-bootstrap';
 
 const Selected_Players_Card = ({ SelectedPlayer }) => {
     return (

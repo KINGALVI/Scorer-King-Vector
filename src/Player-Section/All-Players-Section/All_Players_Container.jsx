@@ -1,8 +1,9 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 import All_Players_Card from './All_Players_Card';
 import Selected_Players_Container from '../Selected_Player_Section/Selected_Players_Container';
 
