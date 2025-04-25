@@ -4,7 +4,6 @@ import Selected_Players_Card from './Selected_Players_Card';
 import { Col, Row } from 'react-bootstrap';
 
 const Selected_Players_Container = ({ AllSelectedPlayer }) => {
-    // console.log(AllSelectedPlayer)
     return (
         <>
 
