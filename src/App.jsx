@@ -1,6 +1,7 @@
 import './App.CSS'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css"; import 'bootstrap/dist/css/bootstrap.min.css';
+import "react-toastify/dist/ReactToastify.css";
 import Header from './Header/Header';
 import Carousel from './Carousel/Carousel';
 import All_Players_Container from './Player-Section/All-Players-Section/All_Players_Container';
@@ -13,19 +14,6 @@ function App() {
 
   const handelSetcoin = () => {
     SetCoin(Coin + 5000)
-  }
-
-  const displayErrorMsg = () => {
-    toast.error('You have no Coins. Please add some Credit to purchase more player.', {
-      position: "top-center",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-    });
   }
 
   const displaySuccessMsg = () => {
@@ -42,13 +30,9 @@ function App() {
   }
 
   const handelRemovecoin = () => {
-    if (Coin === 0) {
-      displayErrorMsg()
-    }
-    else {
-      SetCoin(Coin - 5000)
-      displaySuccessMsg()
-    }
+    SetCoin(Coin - 5000)
+    displaySuccessMsg()
+
   }
 
 
@@ -77,7 +61,7 @@ function App() {
       />
       <Header Coin={Coin}></Header>
       <Carousel handelSetcoin={handelSetcoin}></Carousel>
-      <All_Players_Container API={API} handelRemovecoin={handelRemovecoin}></All_Players_Container>
+      <All_Players_Container API={API} handelRemovecoin={handelRemovecoin} Coin={Coin}></All_Players_Container>
       <Footer></Footer>
     </>
   )

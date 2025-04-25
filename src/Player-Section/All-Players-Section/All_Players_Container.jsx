@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import All_Players_Card from './All_Players_Card';
 import Selected_Players_Container from '../Selected_Player_Section/Selected_Players_Container';
 
-const Players_Container = ({ API, handelRemovecoin }) => {
+const All_Players_Container = ({ API, handelRemovecoin, Coin }) => {
 
     const [activeSection, setActiveSection] = useState("available");
 
@@ -43,7 +43,7 @@ const Players_Container = ({ API, handelRemovecoin }) => {
                     <Row className="g-0" xs={1} md={2}>
                         {API.map((AllPlayer, idx) => (
                             <Col key={idx}>
-                                <All_Players_Card key={idx} AllPlayer={AllPlayer} handelRemovecoin={handelRemovecoin} handelSelectedPlayer={handelSelectedPlayer} />
+                                <All_Players_Card key={idx} AllPlayer={AllPlayer} handelRemovecoin={handelRemovecoin} handelSelectedPlayer={handelSelectedPlayer} AllSelectedPlayer={AllSelectedPlayer} Coin={Coin} />
                             </Col>
                         ))}
                     </Row>
@@ -56,9 +56,9 @@ const Players_Container = ({ API, handelRemovecoin }) => {
     );
 };
 
-Players_Container.propTypes = {
+All_Players_Container.propTypes = {
     API: PropTypes.array.isRequired,
     handelRemovecoin: PropTypes.func.isRequired,
 };
 
-export default Players_Container;
+export default All_Players_Container;
