@@ -37,8 +37,7 @@ function Header({ Coin }) {
                     <Image
                         style={{ maxHeight: '150px' }}
                         src={TopLogo}
-                        alt="Football Logo"
-                    />
+                        alt="Football Logo" />
                     <b>Scorer King Vector</b>
                 </Navbar.Brand>
 
@@ -69,20 +68,17 @@ function Header({ Coin }) {
                         <Nav.Link className='text-center' href="#action4"><b>Schedules</b></Nav.Link>
                     </Nav>
 
-                    {/* 🔹 Coin display with icon This version appears only on medium and larger screens */}
-                    <center className="d-none d-md-block">
-                        <b
-                            style={{
-                                border: '3px solid black',
-                                padding: '12.5px',
-                                borderRadius: '10px'
-                            }}
-                        >
-                            {Coin} Coin <TbCoinFilled size={35} color="goldenrod" />
-                        </b>
-                    </center>
-
                 </Navbar.Collapse>
+
+                {/* 🔹 Coin display with icon This version appears only on medium and larger screens */}
+                <b className="d-none d-md-block"
+                    style={{
+                        border: '3px solid black',
+                        padding: '12.5px',
+                        borderRadius: '10px'
+                    }}>
+                    {Coin} Coin <TbCoinFilled size={35} color="goldenrod" />
+                </b>
 
             </Container>
 

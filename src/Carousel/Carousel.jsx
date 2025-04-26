@@ -38,25 +38,29 @@ const Carousel = ({ handelSetcoin }) => {
                         className='w-100 h-100'  // ✅ Ensures full coverage
                         src={Professional_Players}
                         alt="Card image"
-                        style={{ filter: 'brightness(35%)', opacity: 0.8 }} // ✅ Darkens the background for contrast
-                    />
+                        style={{ filter: 'brightness(35%)', opacity: 0.8 }} /* ✅ Darkens the background for contrast */ />
                 </div>
 
                 {/* 🔹 Overlay content on top of the background image */}
                 <Card.ImgOverlay className='d-flex justify-content-center align-items-center'>
+
                     <div>
 
                         {/* 🔹 Title and description */}
                         <div className='text-center pb-2'>
+                            
                             <Card.Title>
+
                                 {/* 🔹 This version appears only on medium and larger screens */}
                                 <h1 className="d-none d-md-block"><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
 
                                 {/* 🔹 This version appears only on small screens */}
                                 <h1 className="d-block d-md-none" style={{ fontSize: '20px' }}><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
+
                             </Card.Title>
 
                             <Card.Text>
+
                                 {/* 🔹 This version appears only on medium and larger screens */}
                                 <span className="d-none d-md-block">
                                     Build your dream football squad and take control of the ultimate team selection!
@@ -72,7 +76,9 @@ const Carousel = ({ handelSetcoin }) => {
                                     and create the strongest lineup within your budget. Choose wisely, strategize effectively,
                                     and lead your team to victory on the field!
                                 </span>
+
                             </Card.Text>
+
                         </div>
 
                         {/* 🔹 Button to claim free in-game credits */}
@@ -92,9 +98,11 @@ const Carousel = ({ handelSetcoin }) => {
                                 <b style={{ fontSize: '10px', display: 'flex', alignItems: 'center' }}>Claim Free Credit</b>
 
                             </Button>
+
                         </div>
 
                     </div>
+
                 </Card.ImgOverlay>
 
             </Card>
