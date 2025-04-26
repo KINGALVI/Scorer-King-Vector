@@ -44,7 +44,7 @@ const Carousel = ({ handelSetcoin }) => {
                     <div>
 
                         {/* 🔹 Title and description */}
-                        <div className='text-center pb-3'>
+                        <div className='text-center pb-2'>
                             <Card.Title>
                                 <h1><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
                             </Card.Title>
