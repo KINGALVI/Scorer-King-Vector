@@ -58,6 +58,8 @@ const All_Players_Container = ({ API, handelRemovecoin, Coin }) => {
 
     return (
         <>
+            <br />
+
             {/* 🔹 Section for toggling between available and selected players */}
             <section className="d-flex justify-content-center mb-3">
                 <span className="pe-2">

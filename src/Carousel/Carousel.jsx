@@ -29,8 +29,10 @@ import PropTypes from 'prop-types';
 const Carousel = ({ handelSetcoin }) => {
     return (
         <>
+            <br />
+
             {/* 🔹 Main card container for the carousel */}
-            <Card className="bg-dark text-white m-3" style={{ borderRadius: '10px' }}>
+            <Card className="bg-dark text-white m-2" style={{ borderRadius: '10px' }}>
 
                 {/* 🔹 Background image with dark overlay effect */}
                 <div className='d-flex justify-content-center align-items-center'>
@@ -92,25 +94,14 @@ const Carousel = ({ handelSetcoin }) => {
                                 <b>Claim Free Credit</b>
                             </Button>
 
-                        </div>
-
-                        {/* 🔹 Button to claim free in-game credits and This version appears only on small screens */}
-                        <span className="d-block d-md-none d-flex justify-content-center" style={{ paddingBottom: '15px' }}>
-                            <span
-                                onClick={handelSetcoin}
-                                variant="outline-light m-1"
-                                style={{
-                                    border: '1px solid white',
-                                    padding: '5.5px',
-                                    textAlign: 'center',
-                                    borderRadius: '7px',
-                                    width: '95px',
-                                    background: 'white',
-                                    color: 'black'
-                                }}>
-                                <span><b style={{ fontSize: '10px', display: 'flex', alignItems: 'center' }}>Claim Free Credit</b></span>
+                            {/* 🔹 This version appears only on small screens */}
+                            <span className="d-block d-md-none" style={{ paddingBottom: '8px' }}>
+                                <Button variant="outline-light m-1" onClick={handelSetcoin}>
+                                    <b style={{ fontSize: '10px', display: 'flex', alignItems: 'center' }}>Claim Free Credit</b>
+                                </Button>
                             </span>
-                        </span>
+
+                        </div>
 
                     </div>
 
