@@ -49,18 +49,28 @@ const Carousel = ({ handelSetcoin }) => {
                                 <h1><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
                             </Card.Title>
                             <br />
+
                             <Card.Text>
-                                Build your dream football squad and take control of the ultimate team selection! <br />
-                                From legendary scorers to rising stars, manage your picks, optimize player performance, <br />
-                                and create the strongest lineup within your budget. Choose wisely, strategize effectively, <br />
-                                and lead your team to victory on the field!
+                                {/* 🔹 This version appears only on medium and larger screens */}
+                                <span className="d-none d-md-block">
+                                    Build your dream football squad and take control of the ultimate team selection!
+                                    From <br /> legendary scorers to rising stars, manage your picks, optimize player performance,
+                                    and <br /> create the strongest lineup within your budget. Choose wisely, strategize effectively, <br />
+                                    and lead your team to victory on the field!
+                                </span>
+
+                                {/* 🔹 This version appears only on small screens */}
+                                <span className="d-block d-md-none">
+                                    Build your dream football squad and take control of the ultimate team selection!
+                                    From legendary scorers to rising stars, manage your picks, optimize player performance,
+                                    and create the strongest lineup within your budget. Choose wisely, strategize effectively,
+                                    and lead your team to victory on the field!
+                                </span>
                             </Card.Text>
                         </div>
 
-                        <br />
-
                         {/* 🔹 Button to claim free in-game credits */}
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center pt-2'>
                             <Button variant="outline-light m-1" onClick={handelSetcoin}>
                                 <b>Claim Free Credit</b>
                             </Button>
