@@ -32,7 +32,7 @@ function App() {
 
   // 🔹 Fetch player data from the local JSON file on initial render
   useEffect(() => {
-    fetch('/public/Scorer-King-Vector.json')
+    fetch('/Scorer-King-Vector.json')
       .then(response => response.json()) // ✅ Corrected spelling from "Responce" to "response"
       .then(data => setAPI(data));
   }, []);
