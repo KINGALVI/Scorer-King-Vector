@@ -62,8 +62,8 @@
     {
         "player_image": "/public/Player-Image/Leonel-Messi.jpg",
         "player_id": 5,
-        "player_name": "Missi",
-        "player_information": "Missi is an ambiguous or fictional player with no clear professional record. Assumed to be a young talent, potentially a Forward/Winger, but lacks verifiable data. Further details are needed to confirm identity.",
+        "player_name": "Lionel Messi",
+        "player_information": "Lionel Messi is an ambiguous or fictional player with no clear professional record. Assumed to be a young talent, potentially a Forward/Winger, but lacks verifiable data. Further details are needed to confirm identity.",
         "player_behavior": [
             "Preferred foot : Right",
             "Shooting accuracy : 85%",

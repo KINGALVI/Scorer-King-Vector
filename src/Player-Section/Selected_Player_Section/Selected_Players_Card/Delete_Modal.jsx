@@ -27,7 +27,7 @@ const Delete_Modal = ({ show, handleClose, handleRemovePlayer, SelectedPlayer })
         <Modal show={show} onHide={handleClose}>
 
             {/* 🔹 Modal header with title and close button */}
-            <Modal.Header closeButton>
+            <Modal.Header className="d-flex justify-content-center">
                 <Modal.Title>Remove Player</Modal.Title>
             </Modal.Header>
 
@@ -37,7 +37,7 @@ const Delete_Modal = ({ show, handleClose, handleRemovePlayer, SelectedPlayer })
             </Modal.Body>
 
             {/* 🔹 Modal footer with delete and cancel options */}
-            <Modal.Footer>
+            <Modal.Footer className="d-flex justify-content-center">
                 <Button
                     variant="danger"
                     onClick={() => {
