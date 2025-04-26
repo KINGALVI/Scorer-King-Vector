@@ -42,6 +42,19 @@ function Header({ Coin }) {
                     <b>Scorer King Vector</b>
                 </Navbar.Brand>
 
+                {/* 🔹 Coin display with icon This version appears only on small screens */}
+                <b className="d-block d-md-none"
+                    style={{
+                        fontSize: '10px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        border: '3px solid black',
+                        padding: '5.5px',
+                        borderRadius: '10px'
+                    }}>
+                    {Coin} Coin <TbCoinFilled size={25} color="goldenrod" />
+                </b>
+
                 {/* 🔹 Navbar toggle for mobile responsiveness */}
                 <Navbar.Toggle aria-controls="navbarScroll" />
 
@@ -56,8 +69,8 @@ function Header({ Coin }) {
                         <Nav.Link className='text-center' href="#action4"><b>Schedules</b></Nav.Link>
                     </Nav>
 
-                    {/* 🔹 Coin display with icon */}
-                    <center>
+                    {/* 🔹 Coin display with icon This version appears only on medium and larger screens */}
+                    <center className="d-none d-md-block">
                         <b
                             style={{
                                 border: '3px solid black',

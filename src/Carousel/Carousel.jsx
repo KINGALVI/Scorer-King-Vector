@@ -5,6 +5,9 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+
+// import Carousel from 'react-bootstrap/Carousel';
+
 // 🔹 Importing the image for the carousel section to enhance the visual appeal
 import Professional_Players from "../../public/Logo-&-OtherPicture/Carousel-Picture.jpg";
 
@@ -27,7 +30,7 @@ const Carousel = ({ handelSetcoin }) => {
     return (
         <>
             {/* 🔹 Main card container for the carousel */}
-            <Card className="bg-dark text-white shadow-lg m-5" style={{ borderRadius: '10px' }}>
+            <Card className="bg-dark text-white m-3" style={{ borderRadius: '10px' }}>
 
                 {/* 🔹 Background image with dark overlay effect */}
                 <div className='d-flex justify-content-center align-items-center'>
@@ -46,9 +49,12 @@ const Carousel = ({ handelSetcoin }) => {
                         {/* 🔹 Title and description */}
                         <div className='text-center pb-2'>
                             <Card.Title>
-                                <h1><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
+                                {/* 🔹 This version appears only on medium and larger screens */}
+                                <h1 className="d-none d-md-block"><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
+
+                                {/* 🔹 This version appears only on small screens */}
+                                <h1 className="d-block d-md-none" style={{ fontSize: '20px' }}><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
                             </Card.Title>
-                            <br />
 
                             <Card.Text>
                                 {/* 🔹 This version appears only on medium and larger screens */}
@@ -60,7 +66,7 @@ const Carousel = ({ handelSetcoin }) => {
                                 </span>
 
                                 {/* 🔹 This version appears only on small screens */}
-                                <span className="d-block d-md-none">
+                                <span className="d-block d-md-none" style={{ fontSize: '11px' }}>
                                     Build your dream football squad and take control of the ultimate team selection!
                                     From legendary scorers to rising stars, manage your picks, optimize player performance,
                                     and create the strongest lineup within your budget. Choose wisely, strategize effectively,
@@ -71,8 +77,20 @@ const Carousel = ({ handelSetcoin }) => {
 
                         {/* 🔹 Button to claim free in-game credits */}
                         <div className='d-flex justify-content-center pt-2'>
-                            <Button variant="outline-light m-1" onClick={handelSetcoin}>
+
+                            {/* 🔹 This version appears only on medium and larger screens */}
+                            <Button className="d-none d-md-block" variant="outline-light m-1" onClick={handelSetcoin}>
                                 <b>Claim Free Credit</b>
+                            </Button>
+
+                            {/* 🔹 This version appears only on small screens */}
+                            <Button
+                                className="d-block d-md-none"
+                                variant="outline-light m-1"
+                                onClick={handelSetcoin}>
+
+                                <b style={{ fontSize: '10px', display: 'flex', alignItems: 'center' }}>Claim Free Credit</b>
+
                             </Button>
                         </div>
 
