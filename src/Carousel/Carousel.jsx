@@ -55,7 +55,7 @@ const Carousel = ({ handelSetcoin }) => {
                                 <h1 className="d-none d-md-block pb-3"><b>Assemble Your Ultimate Professional Scorer Team !</b></h1>
 
                                 {/* 🔹 This version appears only on small screens */}
-                                <h1 className="d-block d-md-none" style={{ fontSize: '20.5px' }}><b>Assemble Your Ultimate Professional Scorer Team !</b></h1>
+                                <h1 className="d-block d-md-none pt-2" style={{ fontSize: '20.5px' }}><b>Assemble Your Ultimate Professional Scorer Team !</b></h1>
 
                             </Card.Title>
 
@@ -92,17 +92,25 @@ const Carousel = ({ handelSetcoin }) => {
                                 <b>Claim Free Credit</b>
                             </Button>
 
-                            {/* 🔹 This version appears only on small screens */}
-                            <Button
-                                className="d-block d-md-none"
-                                variant="outline-light m-1"
-                                onClick={handelSetcoin}>
-
-                                <b style={{ fontSize: '10px', display: 'flex', alignItems: 'center' }}>Claim Free Credit</b>
-
-                            </Button>
-
                         </div>
+
+                        {/* 🔹 This version appears only on small screens */}
+                        <span className="d-block d-md-none pb-3 d-flex justify-content-center">
+                            <span
+                                onClick={handelSetcoin}
+                                variant="outline-light m-1"
+                                style={{
+                                    border: '1px solid white',
+                                    padding: '5.5px',
+                                    textAlign: 'center',
+                                    borderRadius: '7px',
+                                    width: '95px',
+                                    background: 'white',
+                                    color: 'black'
+                                }}>
+                                <span><b style={{ fontSize: '10px', display: 'flex', alignItems: 'center' }}>Claim Free Credit</b></span>
+                            </span>
+                        </span>
 
                     </div>
 
