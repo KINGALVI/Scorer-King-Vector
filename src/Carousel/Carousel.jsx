@@ -75,11 +75,10 @@ const Carousel = ({ handelSetcoin }) => {
 
                                 {/* 🔹 This version appears only on small screens */}
                                 <span className="d-block d-md-none" style={{ fontSize: '11.5px' }}>
-                                    <b> Build your dream football squad and take control of the ultimate team selection !
-                                        From legendary scorers to rising stars </b> , <b> manage your picks </b> , <b> optimize player performance </b> ,
-                                    <b>and create the strongest lineup within your budget . Choose wisely </b> , <b> strategize effectively </b> , <b>
-                                        and lead your team to victory on the field !
-                                    </b>
+                                    Build your dream football squad and take control of the ultimate team selection!
+                                    Fromlegendary scorers to rising stars, manage your picks, optimize player performance,
+                                    and create the strongest lineup within your budget. Choose wisely, strategize effectively,
+                                    and lead your team to victory on the field!
                                 </span>
 
                             </Card.Text>
