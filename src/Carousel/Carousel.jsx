@@ -48,33 +48,36 @@ const Carousel = ({ handelSetcoin }) => {
 
                         {/* 🔹 Title and description */}
                         <div className='text-center pb-2'>
-                            
+
                             <Card.Title>
 
                                 {/* 🔹 This version appears only on medium and larger screens */}
-                                <h1 className="d-none d-md-block"><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
+                                <h1 className="d-none d-md-block pb-3"><b>Assemble Your Ultimate Professional Scorer Team !</b></h1>
 
                                 {/* 🔹 This version appears only on small screens */}
-                                <h1 className="d-block d-md-none" style={{ fontSize: '20px' }}><b>Assemble Your Ultimate Professional Scorer Team!</b></h1>
+                                <h1 className="d-block d-md-none" style={{ fontSize: '20.5px' }}><b>Assemble Your Ultimate Professional Scorer Team !</b></h1>
 
                             </Card.Title>
 
                             <Card.Text>
 
                                 {/* 🔹 This version appears only on medium and larger screens */}
-                                <span className="d-none d-md-block">
-                                    Build your dream football squad and take control of the ultimate team selection!
-                                    From <br /> legendary scorers to rising stars, manage your picks, optimize player performance,
-                                    and <br /> create the strongest lineup within your budget. Choose wisely, strategize effectively, <br />
-                                    and lead your team to victory on the field!
+                                <span className="d-none d-md-block pb-1">
+                                    <b>
+                                        Build your dream football squad and take control of the ultimate team selection !
+                                        From <br /> legendary scorers to rising stars , manage your picks, optimize player performance ,
+                                        and <br /> create the strongest lineup within your budget. Choose wisely, strategize effectively , <br />
+                                        and lead your team to victory on the field !
+                                    </b>
                                 </span>
 
                                 {/* 🔹 This version appears only on small screens */}
-                                <span className="d-block d-md-none" style={{ fontSize: '11px' }}>
-                                    Build your dream football squad and take control of the ultimate team selection!
-                                    From legendary scorers to rising stars, manage your picks, optimize player performance,
-                                    and create the strongest lineup within your budget. Choose wisely, strategize effectively,
-                                    and lead your team to victory on the field!
+                                <span className="d-block d-md-none" style={{ fontSize: '11.5px' }}>
+                                    <b> Build your dream football squad and take control of the ultimate team selection !
+                                        From legendary scorers to rising stars </b> , <b> manage your picks </b> , <b> optimize player performance </b> ,
+                                    <b>and create the strongest lineup within your budget . Choose wisely </b> , <b> strategize effectively </b> , <b>
+                                        and lead your team to victory on the field !
+                                    </b>
                                 </span>
 
                             </Card.Text>
