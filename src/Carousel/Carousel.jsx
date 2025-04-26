@@ -94,8 +94,8 @@ const Carousel = ({ handelSetcoin }) => {
 
                         </div>
 
-                        {/* 🔹 This version appears only on small screens */}
-                        <span className="d-block d-md-none pb-3 d-flex justify-content-center">
+                        {/* 🔹 Button to claim free in-game credits and This version appears only on small screens */}
+                        <span className="d-block d-md-none d-flex justify-content-center" style={{ paddingBottom: '15px' }}>
                             <span
                                 onClick={handelSetcoin}
                                 variant="outline-light m-1"
