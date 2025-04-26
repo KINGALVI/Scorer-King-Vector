@@ -1,7 +1,7 @@
 [
     {
         "player_image": "/public/Player-Image/Hamza-Choudhury.png",
-        "player_id": "HC001",
+        "player_id": 1,
         "player_name": "Hamza Choudhury",
         "player_information": "Hamza Choudhury, a dynamic midfielder, plays for Leicester City in the Premier League. Known for his tenacity and work rate, he debuted for Bangladesh internationally in 2025, inspiring many. His versatility and defensive skills make him a key asset.",
         "player_behavior": [
@@ -16,7 +16,7 @@
     },
     {
         "player_image": "/public/Player-Image/Jamal-Bhuyan.png",
-        "player_id": "JB002",
+        "player_id": 2,
         "player_name": "Jamal Bhuyan",
         "player_information": "Jamal Bhuyan, captain of Bangladesh, is a midfielder known for leadership and vision. Playing for clubs like Saif SC, he’s a role model in South Asian football, emphasizing teamwork and resilience in matches.",
         "player_behavior": [
@@ -31,7 +31,7 @@
     },
     {
         "player_image": "/public/Player-Image/Neymar-JR.jpg",
-        "player_id": "NJ003",
+        "player_id": 3,
         "player_name": "Neymar JR",
         "player_information": "Neymar, a global superstar at Al Hilal, is renowned for dazzling dribbles and flair. With a record-breaking PSG transfer, he’s won multiple titles, though injuries have impacted recent years. His creativity remains unmatched.",
         "player_behavior": [
@@ -46,7 +46,7 @@
     },
     {
         "player_image": "/public/Player-Image/Cristiano-Ronaldo.jpg",
-        "player_id": "CR004",
+        "player_id": 4,
         "player_name": "Cristiano Ronaldo",
         "player_information": "Cristiano Ronaldo, one of football’s greatest, plays for Al Nassr. With over 900 career goals, he’s a five-time Ballon d’Or winner. His athleticism and goal-scoring prowess continue to define his legendary career.",
         "player_behavior": [
@@ -61,7 +61,7 @@
     },
     {
         "player_image": "/public/Player-Image/Leonel-Messi.jpg",
-        "player_id": "MI005",
+        "player_id": 5,
         "player_name": "Missi",
         "player_information": "Missi is an ambiguous or fictional player with no clear professional record. Assumed to be a young talent, potentially a Forward/Winger, but lacks verifiable data. Further details are needed to confirm identity.",
         "player_behavior": [
@@ -76,7 +76,7 @@
     },
     {
         "player_image": "/public/Player-Image/Kylian-Mbappé.jpeg",
-        "player_id": "KM006",
+        "player_id": 6,
         "player_name": "Kylian Mbappé",
         "player_information": "Kylian Mbappé, Real Madrid’s star forward, is a World Cup winner and prolific scorer. At 26, he’s among the world’s best, known for blistering pace and clinical finishing, leading France’s attack.",
         "player_behavior": [
@@ -91,7 +91,7 @@
     },
     {
         "player_image": "/public/Player-Image/Luis Suárez.jpg",
-        "player_id": "LS007",
+        "player_id": 7,
         "player_name": "Luis Suárez",
         "player_information": "Luis Suárez, now at Inter Miami, is a lethal striker with over 500 career goals. Known for his tenacity and finishing, he’s won titles with Barcelona and Atlético Madrid, remaining impactful at 38.",
         "player_behavior": [
@@ -106,7 +106,7 @@
     },
     {
         "player_image": "/public/Player-Image/Mohamed-Salah.jpg",
-        "player_id": "MS008",
+        "player_id": 8,
         "player_name": "Mohamed Salah",
         "player_information": "Mohamed Salah, Liverpool’s talisman, is a prolific winger with over 200 Premier League goals. Known for speed and precision, he’s Africa’s top footballer, leading Liverpool to major titles.",
         "player_behavior": [
@@ -121,7 +121,7 @@
     },
     {
         "player_image": "/public/Player-Image/James-Rodriguez.jpg",
-        "player_id": "JR009",
+        "player_id": 9,
         "player_name": "James Rodríguez",
         "player_information": "James Rodríguez, playing for São Paulo, is a creative midfielder famed for his 2014 World Cup brilliance. His vision and technique shine, though consistency has varied across European clubs.",
         "player_behavior": [
@@ -136,7 +136,7 @@
     },
     {
         "player_image": "/public/Player-Image/Moist-Ozul.jpg",
-        "player_id": "MO010",
+        "player_id": 10,
         "player_name": "Moist Ozul",
         "player_information": "Moist Ozul appears to be a fictional or unknown player with no professional record. Potentially a creative midfielder, but no data exists to confirm details or career achievements.",
         "player_behavior": [
