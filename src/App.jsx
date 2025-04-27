@@ -33,7 +33,7 @@ function App() {
   // 🔹 Fetch player data from the local JSON file on initial render
   useEffect(() => {
     fetch('/Scorer-King-Vector.json')
-      .then(response => response.json()) // ✅ Corrected spelling from "Responce" to "response"
+      .then(response => response.json())
       .then(data => setAPI(data));
   }, []);
 
@@ -48,8 +48,17 @@ function App() {
   };
 
   /**
-   * Displays a success toast message when a player is purchased.
+   * Deducts 5000 coins from the user's balance when a player is bought.
+   * Also triggers the success toast message.
    */
+  const handelRemovecoin = () => {
+    SetCoin(Coin - 5000);
+    displaySuccessMsg();
+  };
+
+  /**
+ * Displays a success toast message when a player is purchased.
+ */
   const displaySuccessMsg = () => {
     toast.success(`Player purchased successfully! Now you have ${Coin - 5000} coins.`, {
       position: "top-center",
@@ -60,15 +69,6 @@ function App() {
       draggable: true,
       theme: "colored",
     });
-  };
-
-  /**
-   * Deducts 5000 coins from the user's balance when a player is bought.
-   * Also triggers the success toast message.
-   */
-  const handelRemovecoin = () => {
-    SetCoin(Coin - 5000);
-    displaySuccessMsg();
   };
 
   return (

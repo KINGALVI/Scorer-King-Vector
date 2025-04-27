@@ -42,9 +42,9 @@ const All_Players_Card = ({ AllPlayer, handelRemovecoin, handelSelectedPlayer, A
     const handelSingelPlayer = () => {
 
         // 🔹 Check if the player is already selected
-        const isPlayerAlreadyExist = AllSelectedPlayer.some(player => player.player_name === AllPlayer.player_name);
+        const isPlayerAlreadyExist = AllSelectedPlayer.some(Selected => Selected.player_name === AllPlayer.player_name);
 
-        // 🔹 Error: User has 0 coins and tries to select a new player
+        // 🔹 Error: if the User has 0 coins or the user tries to select a selected player
         if (Coin === 0 && !isPlayerAlreadyExist) {
             toast.error("You don't have enough Coins. Please add Credit to purchase a player.", {
                 position: "top-center",
@@ -59,7 +59,7 @@ const All_Players_Card = ({ AllPlayer, handelRemovecoin, handelSelectedPlayer, A
             return;
         }
 
-        // 🔹 Error: Player is already in the selected list
+        // 🔹 Error: if Player is already in the selected list
         if (isPlayerAlreadyExist) {
             toast.error("This player is already selected!", {
                 position: "top-center",

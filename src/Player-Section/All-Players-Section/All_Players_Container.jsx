@@ -60,7 +60,7 @@ const All_Players_Container = ({ API, handelRemovecoin, Coin }) => {
         <>
             <br />
 
-            {/* 🔹 Section for toggling between available and selected players */}
+            {/* 🔹 Section for toggling between available and selected players Button */}
             <section className="d-flex justify-content-center mb-3">
                 <span className="pe-2">
                     <Button variant={activeSection === "available" ? "primary" : "outline-primary"} onClick={() => setActiveSection("available")}>
@@ -75,7 +75,8 @@ const All_Players_Container = ({ API, handelRemovecoin, Coin }) => {
                 </span>
             </section>
 
-            {/* 🔹 Conditionally rendering based on active section */}
+            {/* 🔹 Conditionally rendering based on clicking between available and selected players Button */}
+            {/* if */}
             {activeSection === "available" ? (
                 <section>
                     <center><h3>Total Available Players: {API.length}</h3></center>
@@ -98,8 +99,9 @@ const All_Players_Container = ({ API, handelRemovecoin, Coin }) => {
                     </Row>
                 </section>
             )
+                /* else : activeSection === "success" ?*/
                 : (
-                    /* 🔹 Rendering selected players list */
+                    /* 🔹 Displaying selected players list */
                     <Selected_Players_Container
                         AllSelectedPlayer={AllSelectedPlayer}
                         handleRemovePlayer={handleRemovePlayer}

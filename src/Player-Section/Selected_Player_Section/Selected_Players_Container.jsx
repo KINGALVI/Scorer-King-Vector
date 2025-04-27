@@ -34,20 +34,21 @@ const Selected_Players_Container = ({ AllSelectedPlayer, handleRemovePlayer }) =
                 <center className="p-5">
                     <h4>Please Select Your Favorite Players!</h4>
                 </center>
-            ) : (
-                /* 🔹 Display the list of selected players in a responsive grid */
-                <Row className="g-0" xs={1} md={2}>
-                    {AllSelectedPlayer.map((SelectedPlayer, idx) => (
-                        <Col key={idx}>
-                            <Selected_Players_Card
-                                key={idx}
-                                SelectedPlayer={SelectedPlayer}
-                                handleRemovePlayer={handleRemovePlayer}
-                            />
-                        </Col>
-                    ))}
-                </Row>
-            )}
+            )
+                : (
+                    /* 🔹 Display the list of selected players in a responsive grid */
+                    <Row className="g-0" xs={1} md={2}>
+                        {AllSelectedPlayer.map((SelectedPlayer, idx) => (
+                            <Col key={idx}>
+                                <Selected_Players_Card
+                                    key={idx}
+                                    SelectedPlayer={SelectedPlayer}
+                                    handleRemovePlayer={handleRemovePlayer}
+                                />
+                            </Col>
+                        ))}
+                    </Row>
+                )}
         </>
     );
 };

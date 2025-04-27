@@ -41,7 +41,7 @@ function Header({ Coin }) {
                     <b>Scorer King Vector</b>
                 </Navbar.Brand>
 
-                {/* 🔹 Coin display with icon This version appears only on small screens */}
+                {/* 🔹 Coin display with icon . This version appears only on small screens */}
                 <b className="d-block d-md-none"
                     style={{
                         fontSize: '10px',
@@ -70,7 +70,7 @@ function Header({ Coin }) {
 
                 </Navbar.Collapse>
 
-                {/* 🔹 Coin display with icon This version appears only on medium and larger screens */}
+                {/* 🔹 Coin display with icon . This version appears only on medium and larger screens */}
                 <b className="d-none d-md-block"
                     style={{
                         border: '3px solid black',

@@ -35,14 +35,14 @@ const Selected_Players_Card = ({ SelectedPlayer, handleRemovePlayer }) => {
     const [show, setShow] = useState(false);
 
     /**
-     * Closes the delete confirmation modal.
-     */
-    const handleClose = () => setShow(false);
-
-    /**
      * Opens the delete confirmation modal.
      */
     const handleOpen = () => setShow(true);
+
+    /**
+     * Closes the delete confirmation modal.
+     */
+    const handleClose = () => setShow(false);
 
     return (
         <>
