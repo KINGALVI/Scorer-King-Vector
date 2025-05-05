@@ -43,4 +43,4 @@ This project is **fully deployed** on Netlify, ensuring fast access & smooth fun
 
 1️⃣ **Clone the Repository:**  
 ```bash
-git clone https://github.com/KINGALVI/Scorer-King-Vector.git
+git clone https://github.com/KINGALVI/Scorer-King-Vector
